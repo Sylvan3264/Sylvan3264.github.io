@@ -24,6 +24,6 @@ tags:[博客的初步搭建]
 ###第二步，把本地博客文件夹添加到GitHub Desktop,点击右上角的菜单栏File>Add local repository...(添加本地仓库)，在弹出的窗口点击Choose...,选中你之前在电脑生成的那个blog文件，选中后，点Addd repository,如果提示“not a git repository(这不是一个git仓库)，那么就点击提示框里的creat a repository链接，直接点击确认即可。
 ###如果还没有生成博客文件，那么需要用终端（黑框框）来生成它。打开命令行（按win+R，输入cmd,回车），在黑框里，一行一行地复制粘贴下面的命令，每粘贴一行按一下回车：npm install -g hexo-cli（安装博客文件夹），cd /d D:\（把博客放到D盘0，hexo init blog（生成博客的文件夹，名字就叫blog），cd blog9静茹这个博客），npm install（安装博客需要的组件包），等上面这些都跑完，没有任何红色的ERROR报错后，关掉这个黑框，回到GitHub Desktop软件，点击左上角的File>Add local repository...,点choose...,去你的D盘找到刚刚生成的blog文件夹。
 ###一般保存文件都是保存在D里，这样系统更新也不会意外删除D盘中的内容，如果你把文件不小心存到C盘中，像我一样，这个时候需要将文件转入C盘：打开"此电脑”，进入C:\用户\sylva文件夹，找到刚刚生成的blog文件夹，对着它点击右键>剪切(或者按Ctrl+X),打开D盘，新建一个文件夹，进入这个文件夹，空白处右键>粘贴;回到GitHub Desktop里重新添加，点击左上角File>Add local repository...,点击choose...,这次去D盘，找到甘冈粘贴的文件夹，选中它，点击Add repository，C盘中的那个文件就可以删了
-###这样基本框架就成型啦。。。
+###这样基本框架就成型啦。。
 
 
